@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.logo {
+    font-size: 150px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navigation */
+nav {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1e3a5f;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Main */
+main {
+    text-align: center;
+}
+
+section {
+    padding: 45px 20px;
+}
+
+section h2 {
+    color: #1e3a5f;
+    font-size: 28px;
+}
+
+/* Buttons */
+button {
+    background-color: #1e3a5f;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hero */
+.hero {
+    background-color: #dbeafe;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+/* About */
+.about {
+    background-color: white;
+    padding: 50px 20px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.7;
+    font-size: 17px;
+}
+
+/* Facilities */
+.facilities {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.facility-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.facility {
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+.facility h3 {
+    color: #1e3a5f;
+}
+
+/* Teachers */
+.teachers {
+    background-color: #eef4f8;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.teacher-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.teacher {
+    background-color: white;
+    width: 220px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+.teacher h3 {
+    color: #1e3a5f;
+}
+
+/* Gallery */
+.gallery {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery-box {
+    width: 250px;
+    height: 150px;
+    background-color: #dbeafe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #1e3a5f;
+}
+
+/* Contact */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #eef4f8;
+}
+
+.contact p {
+    font-size: 17px;
+    margin: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
